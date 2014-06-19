@@ -1,0 +1,9 @@
+{
+	"name": "window open",
+	"version": "0.1",
+	"manifest_version": 2,
+	"desciption": "window open only",
+	"icons": {
+		"19" : "icon19.png"
+	},
+}
