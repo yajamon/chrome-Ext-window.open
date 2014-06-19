@@ -8,6 +8,16 @@ function windowOpen () {
 
 	chrome.windows.create(options,function (win) {
 		console.log(win);
+
+		var updateOptions = {
+			width : 800,
+			height : 480
+		};
+
+		// chrome.windows.update(win.id,updateOptions, function (win_) {
+		chrome.windows.update(win.id,updateOptions, function (win_) {
+			// body...
+		});
 	});
 }
 
