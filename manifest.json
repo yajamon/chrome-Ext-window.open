@@ -13,5 +13,9 @@
 		},
 		"default_title" : "window.open",
 		"default_popup" : "src/html/popup.html"
-	}
+	},
+
+	"permissions": [
+		"tabs"
+	]
 }
