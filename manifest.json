@@ -1,0 +1,21 @@
+{
+	"name": "window open",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "window open only",
+	"icons": {
+		"19" : "icon19.png"
+	},
+
+	"browser_action": {
+		"default_icon": {
+			"19": "src/img/icon19.png"
+		},
+		"default_title" : "window.open",
+		"default_popup" : "src/html/popup.html"
+	},
+
+	"permissions": [
+		"tabs"
+	]
+}
